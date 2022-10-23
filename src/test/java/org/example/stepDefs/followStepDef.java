@@ -16,7 +16,7 @@ public class followStepDef {
     P03_homePages follow = new P03_homePages();
     ArrayList<String> tabs;
 
-    @Given("^user opens \"(.*)\" link$")
+    @Given("^userOpens \"(.*)\" link$")
     public void clickOnFacebookLink(String link) {
         switch (link) {
             case "linkedIN":
@@ -46,10 +46,10 @@ public class followStepDef {
     public void userCanSwitchBetweenTwoTabs() throws InterruptedException {
         Thread.sleep(4000);
         Hooks.driver.switchTo().window(tabs.get(1));
-        System.out.println("tab 1:  " + Hooks.driver.getCurrentUrl());
+        System.out.println("tab 1 :  " + Hooks.driver.getCurrentUrl());
         Thread.sleep(4000);
         Hooks.driver.switchTo().window(tabs.get(0));
-        System.out.println("tab 0:  " + Hooks.driver.getCurrentUrl());
+        System.out.println("tab 0 :  " + Hooks.driver.getCurrentUrl());
         Thread.sleep(2500);
         Hooks.driver.switchTo().window(tabs.get(1));
 
