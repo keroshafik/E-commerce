@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class D05_hoverCategoriesStepDef {
-    P03_homePage hovercatefory = new P03_homePage();
+    P03_homePage hovercateforys = new P03_homePage();
     SoftAssert softassert = new SoftAssert();
     Actions actions = new Actions(Hooks.driver);
     public static int selectedCategory;
@@ -26,7 +26,7 @@ public class D05_hoverCategoriesStepDef {
 
     @Given("user hover on one of the main categories")
     public void hoverMainCategories() throws InterruptedException {
-        maincategories =hovercatefory.getMainCategories();
+        maincategories =hovercateforys.getMainCategories();
         int count = maincategories.size();
         int mins = 0;
         int maxs = count-1;
@@ -59,12 +59,12 @@ public class D05_hoverCategoriesStepDef {
             System.out.println("Sub category is selected:   " + selectedSubCategoryText);
             Thread.sleep(2000);
             subCategoryLinks.get(selectedSubCategory).click();
-            softassert.assertEquals(hovercatefory.getPageTile().getText().toLowerCase().trim(), selectedSubCategoryText.toLowerCase().trim());
+            softassert.assertEquals(hovercateforys.getPageTile().getText().toLowerCase().trim(), selectedSubCategoryText.toLowerCase().trim());
             softassert.assertAll();
 
         }else {
             maincategories.get(selectedCategory - 1).click();
-            softassert.assertEquals(hovercatefory.getPageTile().getText().toLowerCase().trim(), selectedMainCategoryText.toLowerCase().trim());
+            softassert.assertEquals(hovercateforys.getPageTile().getText().toLowerCase().trim(), selectedMainCategoryText.toLowerCase().trim());
             softassert.assertAll();
         }
 

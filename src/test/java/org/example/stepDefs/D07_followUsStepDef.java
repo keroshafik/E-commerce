@@ -4,7 +4,8 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.example.pages.P03_homePage;
+import org.example.pages.P03_homePages;
+import org.example.pages.P03_homePages;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -13,7 +14,7 @@ import java.time.Duration;
 import java.util.ArrayList;
 
 public class D07_followUsStepDef {
-    P03_homePage followus = new P03_homePage();
+    P03_homePages followus = new P03_homePages();
     ArrayList<String> tabs;
 
     @Given("^user opens \"(.*)\" link$")
