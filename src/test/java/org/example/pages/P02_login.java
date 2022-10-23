@@ -18,21 +18,27 @@ public class P02_login {
     public WebElement enterEmail;
 
 
+
     @FindBy (id = "Password")
     public WebElement enterpassword;
+
 
     @FindBy(xpath = "//Button[@class=\"button-1 login-button\"]")
     public WebElement loginBtn;
 
+
     @FindBy (className = "ico-account")
     public WebElement myAccountTab;
 
+
     @FindBy (className = "message-error")
     public WebElement unSuccessMsg;
+
 
     public void loginSteps(String email, String password) {
         enterEmail.sendKeys(email);
         enterpassword.sendKeys(password);
     }
+
 
 }

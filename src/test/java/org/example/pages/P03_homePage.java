@@ -17,9 +17,10 @@ public class P03_homePage {
         DDselection.selectByVisibleText(selection);
     }
 
+
     public List<WebElement> getEuroValues() {
 
-        return Hooks.driver.findElements(By.className("price"));
+        return Hooks.driver.findElements(By.className("price "));
     }
 
     public WebElement getSearchFiledElement() {

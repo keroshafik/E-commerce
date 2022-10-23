@@ -16,7 +16,7 @@ public class D03_currenciesStepDef {
 
     @Given("Select Euro currency from the dropdown list on the top left of home page")
     public void selectEuroCurrency(){
-        P03_homePage.selectCurrency("Euro", By.id("customerCurrency"));
+        P03_homePage.selectCurrency("Eurooo", By.id("customerCurrency"));
 
     }
 

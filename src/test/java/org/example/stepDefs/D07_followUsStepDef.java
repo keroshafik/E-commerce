@@ -35,14 +35,14 @@ public class D07_followUsStepDef {
 
     }
 
-    @When("user can display new tab")
+    @When("user can displays new tab")
     public void userCanDisplayNewTab() {
         WebDriverWait wait = new WebDriverWait(Hooks.driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.numberOfWindowsToBe(2));
         tabs = new ArrayList<>(Hooks.driver.getWindowHandles());
 
     }
-    @And("user can switch between two tabs")
+    @And("user can switch between two taps")
     public void userCanSwitchBetweenTwoTabs() throws InterruptedException {
         Thread.sleep(3000);
         Hooks.driver.switchTo().window(tabs.get(1));

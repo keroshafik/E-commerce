@@ -11,7 +11,7 @@ import static org.example.stepDefs.D01_registerStepDef.registeredemial;
 public class D02_loginStepDef {
     P02_login login = new P02_login();
     SoftAssert softassert = new SoftAssert();
-    @Given("user go to login page")
+    @Given("user go to login pagee")
     public void openLoginPage() {
 
         login.loginIcon.click();
@@ -30,7 +30,7 @@ public class D02_loginStepDef {
 
     }
 
-    @Then("user login to the system successfully")
+    @Then("user login to the system successfullyy")
     public void userLoginToTheSystemSuccessfully() {
         softassert.assertEquals(Hooks.driver.getCurrentUrl(), "https://demo.nopcommerce.com/");
         softassert.assertTrue(login.myAccountTab.isDisplayed());

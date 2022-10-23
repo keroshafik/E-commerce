@@ -7,15 +7,15 @@ import org.testng.asserts.SoftAssert;
 
 public class D06_homeSlidersStepDef {
 
-    P03_homePage sliderhomepage = new P03_homePage();
+    P03_homePage sliderhomepages = new P03_homePage();
 
     SoftAssert softassert = new SoftAssert();
 
     @Given("first slider is clickable on home page")
     public void clickFirstURL(){
 
-        sliderhomepage.clickSliderElement().click();
-        sliderhomepage.implicitWait();
+        sliderhomepages.clickSliderElement().click();
+        sliderhomepages.implicitWait();
     }
 
     @Then("user should navigate to clickable URL {string}")
@@ -35,9 +35,9 @@ public class D06_homeSlidersStepDef {
     @Given("second slider is clickable on home page")
     public void secondSliderURl() {
 
-        sliderhomepage.implicitWaitUntill("//*[@id=\"nivo-slider\"]/a[1]", "style", "display: none;");
-        sliderhomepage.clickSliderElement().click();
-        sliderhomepage.implicitWait();
+        sliderhomepages.implicitWaitUntill("//*[@id=\"nivo-slider\"]/a[1]", "style", "display: none;");
+        sliderhomepages.clickSliderElement().click();
+        sliderhomepages.implicitWait();
 
     }
 }

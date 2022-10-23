@@ -25,14 +25,14 @@ public class D08_WishlistStepDef {
         softAssert.assertTrue(wishlist.getBarNotification().isDisplayed());
         String background = Hooks.driver.findElement(By.xpath("//*[@id=\"bar-notification\"]/div")).getCssValue("background-color");
         System.out.println(background);
-        String convertedbackgroundcolor = Color.fromString(background).asHex();
-        softAssert.assertEquals(convertedbackgroundcolor, "#4bb07a");
-        System.out.println(convertedbackgroundcolor);
+        String convertedbackgroundcolors = Color.fromString(background).asHex();
+        softAssert.assertEquals(convertedbackgroundcolors, "#4bb07a");
+        System.out.println(convertedbackgroundcolors);
         softAssert.assertAll();
     }
     @And("user open wishlist page")
     public void userOpenWishlistPage() throws InterruptedException {
-        Thread.sleep(5000);
+        Thread.sleep(6000);
         wishlist.clickWishListLink().click();
 
     }

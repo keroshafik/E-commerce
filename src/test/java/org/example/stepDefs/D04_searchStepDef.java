@@ -50,7 +50,7 @@ public class D04_searchStepDef {
         System.out.println("Serial Full value: " + search.assertSerialProduct().getText());
         String Skuvalue = search.assertSerialProduct().getText();
         String[] Skuvalueplited = Skuvalue.split(": ");
-        System.out.println("Sku Value: " + Skuvalueplited[1].trim());
+        System.out.println("Sku Valuee: " + Skuvalueplited[1].trim());
         Assert.assertTrue(search.assertSerialProduct().getText().contains(skuWord));
         Assert.assertEquals(Skuvalueplited[1].trim(), skuWord);
 

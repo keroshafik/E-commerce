@@ -5,32 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc91b60e-be48-4f50-b1ad-f0cc8fd4bc88" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F01_Register.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F02_Login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F03_currencies.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F04_Search.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F05_hoverCategories.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F06_homeSliders.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F07_followUs.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F08_Wishlist.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P01_register.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P02_login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P03_homePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D01_registerStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D02_loginStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D03_currenciesStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D04_searchStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D05_hoverCategoriesStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D06_homeSlidersStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D07_followUsStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D08_WishlistStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/testRunners/runners.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pages/P02_login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P02_login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pages/P03_homePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P03_homePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D01_registerStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D01_registerStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D02_loginStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D02_loginStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D03_currenciesStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D03_currenciesStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D04_searchStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D04_searchStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D05_hoverCategoriesStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D05_hoverCategoriesStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D06_homeSlidersStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D06_homeSlidersStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D07_followUsStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D07_followUsStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D08_WishlistStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D08_WishlistStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/Hooks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +39,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2CoMPtXB7ElsKKsL7MBT9uh2jOq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -62,7 +58,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/nayera software/NayeraFinal",
+    "last_opened_file_path": "D:/FWD - Front End and performance testing/nayeraEcommerce/E-commerde-AutomationApp",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",

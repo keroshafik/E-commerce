@@ -44,7 +44,7 @@ public class D01_registerStepDef {
         month.selectByValue("10");
 
         Select year = new Select(Hooks.driver.findElement(By.name("DateOfBirthYear")));
-        year.selectByValue("1998");
+        year.selectByValue("1997");
 
     }
 
