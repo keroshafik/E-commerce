@@ -12,27 +12,27 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
 public class D01_registerStepDef {
-    P01_register register = new P01_register();
+    P01_register registers = new P01_register();
     public static String registeredemial;
 
 
         @Given("user go to register page" )
             public void  register_page()
             {
-                register.registerBtn.click();
+                registers.registerBtn.click();
               }
 
 
     @When("user select gender type")
     public void userSelectGenderType() {
-        register.Gender.click();
+        registers.Gender.click();
 
     }
 
     @And("ser enter first name {string} and last name {string}")
     public void serEnterFirstNameAndLastName(String firstName, String lastName) {
-        register.firstName.sendKeys(firstName);
-        register.LastName.sendKeys(lastName);
+        registers.firstName.sendKeys(firstName);
+        registers.LastName.sendKeys(lastName);
     }
 
     @And("user enter date of birth")
@@ -50,9 +50,9 @@ public class D01_registerStepDef {
 
     @And("user enter email field")
     public void userEnterEmailField() {
-        Faker faker = new Faker();
-        String email = faker.internet().safeEmailAddress();
-        register.enterEmail.sendKeys(email);
+        Faker fakers = new Faker();
+        String email = fakers.internet().safeEmailAddress();
+        registers.enterEmail.sendKeys(email);
         System.out.println(email);
         registeredemial = email;
 
@@ -60,14 +60,14 @@ public class D01_registerStepDef {
 
     @And("user fills Password fields {string} {string}")
     public void userFillsPasswordFields(String password, String ConfirmPassword) {
-        register.setPassword.sendKeys(password);
-        register.ConfPassword.sendKeys(ConfirmPassword);
+        registers.setPassword.sendKeys(password);
+        registers.ConfPassword.sendKeys(ConfirmPassword);
 
     }
 
     @And("user clicks on register button")
     public void userClicksOnRegisterBTN() {
-        register.registerButton.sendKeys(Keys.ENTER);
+        registers.registerButton.sendKeys(Keys.ENTER);
     }
 
     @Then("success message is displayed")

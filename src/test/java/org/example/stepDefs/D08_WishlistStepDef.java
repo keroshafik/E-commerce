@@ -3,13 +3,13 @@ package org.example.stepDefs;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import org.example.pages.P03_homePage;
+import org.example.pages.P03_homePages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.Color;
 import org.testng.asserts.SoftAssert;
 
 public class D08_WishlistStepDef {
-    P03_homePage wishlist = new P03_homePage();
+    P03_homePages wishlist = new P03_homePages();
     SoftAssert softAssert = new SoftAssert();
 
     @Given("user click on wishlist button")

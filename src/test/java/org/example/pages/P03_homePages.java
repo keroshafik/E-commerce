@@ -13,8 +13,8 @@ import java.util.concurrent.TimeUnit;
 
 public class P03_homePages {
     public static void selectCurrency(String selection, By ElementId) {
-        Select DDselection = new Select(Hooks.driver.findElement(ElementId));
-        DDselection.selectByVisibleText(selection);
+        Select DDselections = new Select(Hooks.driver.findElement(ElementId));
+        DDselections.selectByVisibleText(selection);
     }
 
 

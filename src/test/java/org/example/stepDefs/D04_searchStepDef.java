@@ -3,7 +3,8 @@ package org.example.stepDefs;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.example.pages.P03_homePage;
+import org.example.pages.P03_homePages;
+import org.example.pages.P03_homePages;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
@@ -12,7 +13,7 @@ import java.util.List;
 
 public class D04_searchStepDef {
 
-    P03_homePage search = new P03_homePage();
+    P03_homePages search = new P03_homePages();
 
     SoftAssert softassert = new SoftAssert();
 

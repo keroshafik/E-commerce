@@ -2,12 +2,12 @@ package org.example.stepDefs;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import org.example.pages.P03_homePage;
+import org.example.pages.P03_homePages;
 import org.testng.asserts.SoftAssert;
 
 public class D06_homeSlidersStepDef {
 
-    P03_homePage sliderhomepages = new P03_homePage();
+    P03_homePages sliderhomepages = new P03_homePages();
 
     SoftAssert softassert = new SoftAssert();
 

@@ -3,7 +3,7 @@ package org.example.stepDefs;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.example.pages.P03_homePage;
+import org.example.pages.P03_homePages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class D05_hoverCategoriesStepDef {
-    P03_homePage hovercateforys = new P03_homePage();
+    P03_homePages hovercateforys = new P03_homePages();
     SoftAssert softassert = new SoftAssert();
     Actions actions = new Actions(Hooks.driver);
     public static int selectedCategory;
