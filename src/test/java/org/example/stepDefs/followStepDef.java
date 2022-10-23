@@ -5,7 +5,6 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.example.pages.P03_homePages;
-import org.example.pages.P03_homePages;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -13,52 +12,52 @@ import org.testng.Assert;
 import java.time.Duration;
 import java.util.ArrayList;
 
-public class D07_followUsStepDef {
-    P03_homePages followus = new P03_homePages();
+public class followStepDef {
+    P03_homePages follow = new P03_homePages();
     ArrayList<String> tabs;
 
     @Given("^user opens \"(.*)\" link$")
-    public void clickOnFacebookLink(String linktype) {
-        switch (linktype) {
-            case "facebook":
-                followus.clickFacebookLink().click();
+    public void clickOnFacebookLink(String link) {
+        switch (link) {
+            case "linkedIN":
+                follow.clickFacebookLink().click();
                 break;
-            case "twitter":
-                followus.clickTwitterLink().click();
+            case "google":
+                follow.clickTwitterLink().click();
                 break;
-            case "rss":
-                followus.clickRssLink().click();
+            case "wekepedia":
+                follow.clickRssLink().click();
                 break;
             case "youtube":
-                followus.clickYoutubeLink().click();
+                follow.clickYoutubeLink().click();
                 break;
         }
 
     }
 
     @When("user can displays new tab")
-    public void userCanDisplayNewTab() {
-        WebDriverWait wait = new WebDriverWait(Hooks.driver, Duration.ofSeconds(10));
-        wait.until(ExpectedConditions.numberOfWindowsToBe(2));
+    public void userDisplayNewTab() {
+        WebDriverWait waits = new WebDriverWait(Hooks.driver, Duration.ofSeconds(10));
+        waits.until(ExpectedConditions.numberOfWindowsToBe(2));
         tabs = new ArrayList<>(Hooks.driver.getWindowHandles());
 
     }
     @And("user can switch between two taps")
     public void userCanSwitchBetweenTwoTabs() throws InterruptedException {
-        Thread.sleep(3000);
+        Thread.sleep(4000);
         Hooks.driver.switchTo().window(tabs.get(1));
         System.out.println("tab 1:  " + Hooks.driver.getCurrentUrl());
-        Thread.sleep(2000);
+        Thread.sleep(4000);
         Hooks.driver.switchTo().window(tabs.get(0));
         System.out.println("tab 0:  " + Hooks.driver.getCurrentUrl());
-        Thread.sleep(2000);
+        Thread.sleep(2500);
         Hooks.driver.switchTo().window(tabs.get(1));
 
     }
 
     @Then("^\"(.*)\" is opened in new tab")
     public void asserURL(String URL) throws InterruptedException {
-        Thread.sleep(5000);
+        Thread.sleep(6000);
         Assert.assertEquals(Hooks.driver.getCurrentUrl(), URL);
         Hooks.driver.close();
     }

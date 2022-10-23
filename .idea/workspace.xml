@@ -6,14 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dc91b60e-be48-4f50-b1ad-f0cc8fd4bc88" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pages/P03_homePages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P03_homePages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D01_registerStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D01_registerStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D02_loginStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D02_loginStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D03_currenciesStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D03_currenciesStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D04_searchStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D04_searchStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D05_hoverCategoriesStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D05_hoverCategoriesStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D06_homeSlidersStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D06_homeSlidersStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D08_WishlistStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D08_WishlistStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F07_followUs.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F07_followUs.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D07_followUsStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/followStepDef.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
